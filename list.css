@@ -1,0 +1,114 @@
+body{
+    height: 100%;
+    background-color: rgba(129, 124, 124, 0.655);
+    margin: 0;
+}
+.whole-body{
+    height: 100%;
+    background-color:rgba(129, 124, 124, 0.655) ;
+    margin: 0;
+}
+.container{
+height:535px;
+
+}
+.logo{
+    height: 70px;
+    width: 70px;
+    border-radius: 50px;
+}
+.header{
+    display: flex;
+    padding: 20px;
+    /* border: 2px soli d black; */
+    width: 300px;
+    justify-content: center;
+gap: 20px;
+}
+
+.button{
+    /* border: 2px solid red; */
+    height: 20px;
+    display: flex ;
+    
+}
+.arrange{
+    display: flex;
+    /* border: 2px solid blue; */
+    justify-content: space-between;
+}
+.button button{
+    height: 20px;
+width: 50px;
+}
+.filter{
+    display: flex;
+    flex-direction: column;
+}
+#container{
+    display: flex;
+    justify-content: space-around;
+}
+.dropdown {
+    display: none; /* Initially hide the dropdown */
+}
+
+.dropdown.show {
+    display: block; /* Show the dropdown when 'show' class is present */
+}
+
+.item {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin: 5px 0;
+
+}
+.item img{
+    height: 200px;
+}
+
+.item h3 {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.item p {
+    margin: 5px 0;
+}
+.organize button{
+    width: 90px;
+
+}
+.organize{
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    /* width: 1270px; */
+    
+    
+    align-items: flex-end;
+    height: 50px;
+    justify-content: flex-start;
+}
+.ascend{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+        display: none;
+        
+
+}
+.ascend a{
+    border: 1px solid black;
+}
+.ascend:hover{
+    cursor: pointer;
+
+}
+.organize:hover .ascend{
+display: flex;
+}
+.organize button:hover{
+    cursor: pointer;
+
+}

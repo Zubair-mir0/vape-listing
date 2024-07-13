@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vape List</title>
+    <link rel="stylesheet" href="list.css">
+    <script src="newlist.js" defer></script>
+</head>
+<body>
+    <div class="whole-body">
+        <div class="container">
+            <div class="header">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVjUD30JYTW0ebvLIUd1ver40zAfXpWVRf1Q&s" alt="" class="logo">
+                <h1>Vape List</h1>
+            </div>
+            <div class="arrange">
+
+                <div class="button">
+                    <button id="dropdownBtn">Type</button>
+                    <div id="dropdown" class="dropdown">
+                        <select id="dropdownSelect">
+                        <option value="whole">All</option>
+                        <option value="name">Name</option>
+                        <option value="model">Model</option>
+                        <option value="color">Color</option>
+                    </select>
+                </div>
+                <input type="text" id="search" placeholder="Search...">
+                <button id="filterBtn">Filter</button>
+            </div>
+            <div class="organize">
+                <button>organize</button>
+                <div class="ascend">
+                    
+                    <a id="ascend" >ascending</a>
+                    <a id="descend">descending</a>
+                </div>
+            </div>
+                </div>
+            <div id="container">
+                <!-- Dynamic content will be added here -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
